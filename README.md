@@ -229,7 +229,7 @@
   udp: true
   sni: BUGSNI.COM
 </pre>
-# Format Akun Shadowsocks
+# Format Akun SHADOWSOCKS
 <pre>
 1. Shadowsocks Tanpa Plugin
 - name: Shadowsocks Tanpa Plugin
