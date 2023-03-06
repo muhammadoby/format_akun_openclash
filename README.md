@@ -1,5 +1,6 @@
-# format_openclash
+<img src="https://raw.githubusercontent.com/Mazeorz/Clash.Tray/master/icon/Clash.Tray.png" height="100" width="100"> <h2>Format Akun Openclash</h2>
 # Format Akun TROJAN
+<pre>
 1. Trojan GFW (SNI)
 - name: Trojan GFW (SNI)
   type: trojan
@@ -63,8 +64,9 @@
   network: grpc
   grpc-opts:
     grpc-service-name: NAMAGRPC
-
+</pre>
 # Format Akun VMESS
+<pre>
 1. Vmess WS (SNI)
 - name: Vmess WS (SNI)
   type: vmess
@@ -133,8 +135,9 @@
   skip-cert-verify: true
   grpc-opts:
     grpc-service-name: NAMAGRPC
-
+</pre>
 # Format Akun VLESS
+<pre>
 1. Vless WS (SNI)
 - name: Vless WS (SNI)
   server: SERVER.COM
@@ -211,8 +214,9 @@
   grpc-mode: gun
   grpc-service-name: NAMAGRPC
   udp: true
-
-#Format Akun SOCKS5
+</pre>
+# Format Akun SOCKS5
+<pre>
 1. Socks5 (SNI)
 - name: Socks5 (SNI)
   type: socks5
@@ -224,8 +228,9 @@
   skip-cert-verify: true
   udp: true
   sni: BUGSNI.COM
-
+</pre>
 # Format Akun Shadowsocks
+<pre>
 1. Shadowsocks Tanpa Plugin
 - name: Shadowsocks Tanpa Plugin
   type: ss
@@ -234,7 +239,7 @@
   cipher: chacha20-ietf-poly1305
   password: PASSWORD
   udp: true
-
+  
 2. Shadowsocks Plugin Obfs
 - name: Shadowsocks Plugin Obfs
   type: ss
@@ -246,8 +251,9 @@
   plugin-opts:
     mode: tls
     host: BUGSNI.COM
-
+</pre>
 # Format Akun SHADOWSOCKSR
+<pre>
 1. ShadowsocksR (SNI)
 - name: ShadowsocksR (SNI)
   server: SERVER.COM
@@ -260,8 +266,9 @@
   protocol-param: "#"
   obfs-param: BUGSNI.COM
   udp: true
-
+</pre>
 # Format Akun SNELL
+<pre>
 1. Snell V3 (Support UDP)
 - name: Snell V3
   type: snell
@@ -273,3 +280,4 @@
   obfs-opts:
     mode: tls
     host: BUGSNI.COM
+</pre>
